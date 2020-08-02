@@ -1,0 +1,142 @@
+body {
+  font-family: 'Lato', Sans-Serif;
+  text-align: left;
+  line-height: 25px;
+}
+
+.conteudo{
+  display: block;
+  margin-top: 5em;
+}
+
+.conteudo-topo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url('/img/home1-arroz.jpg');
+  height: 30em;
+  padding-left: 3em;
+}
+
+.cozinharia {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: white;
+  height: 30em;
+}
+
+.texto-esquerda {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+
+.foto-direita {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+
+#fotoprato {
+  width: 90%;
+}
+
+.cardapio {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #eed33e;
+  height: 50em;
+}
+
+.fotos-galeria {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.fotos-galeria img {
+  width: 30%;
+}
+
+.evento {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: white;
+  height: 30em;
+}
+
+.esquerda-evento {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+
+#fotocasamento1 {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.direita-evento {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 50%;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+p {
+  margin-bottom: 40px;
+}
+
+.maior {
+  font-size: 18px;
+}
+
+.button-card {
+  justify-content: center;
+}
+
+.button-azul {
+  color: black;
+  font-size: 14px;
+  padding: 20px;
+  margin-right: 15px;
+  text-decoration: none;
+  border: solid;
+  border-width: 2px;
+}
+
+.button-azul:hover {
+  background-color: #000066;
+  color: white;
+}
+
+.button-amarelo {
+  font-size: 14px;
+  padding: 20px;
+  margin-top: 20px;
+  margin-right: 15px;
+  text-decoration: none;
+  background-color: #eed33e;
+  color: black;
+  justify-content: center;
+}
+
+.button-amarelo:hover {
+  background-color: #ffbf00;
+}
